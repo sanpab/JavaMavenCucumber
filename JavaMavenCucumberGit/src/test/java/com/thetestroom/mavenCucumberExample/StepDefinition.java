@@ -23,7 +23,8 @@ public class StepDefinition {
 	@Before // hook in cucumber
 	public void testSetUp() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\sanpab\\OneDrive - DNV GL\\My Documents\\WORK\\SeleniumTraining\\TrainingFiles\\Software\\chromedriver.exe");
+				//"C:\\Users\\sanpab\\OneDrive - DNV GL\\My Documents\\WORK\\SeleniumTraining\\TrainingFiles\\Software\\chromedriver.exe");
+				"ChromeDriver/chromedriver.exe"); 
 		driver = new ChromeDriver();
 //		System.setProperty("webdriver.ie.driver",
 //				"C:\\Users\\sanpab\\Documents\\WORK\\SeleniumTraining\\TrainingFiles\\Software\\IEDriverServer.exe");
