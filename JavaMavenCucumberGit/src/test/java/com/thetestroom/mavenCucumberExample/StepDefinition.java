@@ -81,7 +81,7 @@ public class StepDefinition {
 
 	@Then("^I check I am on the confirmation page$")
 	public void I_check_I_am_on_the_confirmation_page() throws Throwable {
-		Assert.assertTrue(contactConfirmPage.getPageTitle().contains("We have some message"));
+		Assert.assertTrue(contactConfirmPage.getPageTitle().contains("We have your message"));
 	}
 
 	@And("^I close the browser$")
